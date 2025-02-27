@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
     server: {
         hmr: {
-            host: "https://barkloungetr.com",
+            host: "barkloungetr.com",
         },
     },
     plugins: [
