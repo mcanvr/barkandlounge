@@ -30,7 +30,7 @@
             </div>
         </div>
         <div
-            class="h-96 w-96 bg-pet-500 [background-image:url('https://d.newsweek.com/en/full/1898130/dog-cat-under-sheet.jpg')] bg-cover bg-center rounded-lg ml-auto group-hover:scale-105 group-hover:shadow-2xl group-hover:rotate-2 transition-all duration-300">
+            class="h-96 w-full md:w-96 bg-pet-500 [background-image:url('https://d.newsweek.com/en/full/1898130/dog-cat-under-sheet.jpg')] bg-cover bg-center rounded-lg ml-auto transition-all duration-300">
         </div>
     </div>
 </section>

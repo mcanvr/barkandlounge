@@ -1,6 +1,6 @@
 <section id="contact"
     style="background-image: url('https://www.petshoower.com/wp-content/uploads/2019/02/stretched-1366-768-772494.jpg')"
-    class="bg-cover bg-no-repeat bg-fixed relative">
+    class="bg-cover bg-no-repeat relative">
     <div class="absolute inset-0 bg-pet-400 opacity-50"></div>
     <div class="container mx-auto md:h-80 h-96 flex flex-col items-center gap-16 font-serif z-10 relative">
         <div class="flex md:flex-row flex-col gap-8 w-full h-full items-center">
