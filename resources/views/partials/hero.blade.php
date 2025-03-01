@@ -56,8 +56,8 @@
             <div class="flex flex-col z-10 items-center justify-center md:px-40 px-10 gap-10">
                 <h1
                     class="text-white md:text-5xl text-3xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
-                    Sevgili evcil dostlarınızın mutluluğu bizim önceliğimiz. Hemen şimdi randevu alarak, onlara ev
-                    konforunda, özenli ve sevgi dolu bakım deneyimini yaşatın.</h1>
+                    Sevimli dostlarımızın mutluluğu için hemen şimdi randevu alarak, onlara kusursuz en iyi bakımı
+                    sağlayabilirsiniz.</h1>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
                     class="bg-white text-pet-700 md:px-8 md:py-4 px-4 py-2 rounded-full font-bold font-serif md:text-xl text-base hover:bg-pet-700 hover:text-white transition-all duration-300 flex flex-row items-center gap-2  border-2 border-pet-700">
                     <i class="fa-solid fa-phone"></i>

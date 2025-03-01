@@ -7,7 +7,9 @@
         "image": "/pet-kuafor.webp",
         "author": "Bark Lounge",
         "date": "Şub 24, 2024",
-        "category": "Pet Bakım ve Kuaför Hizmetleri"
+        "category": "Pet Bakım ve Kuaför Hizmetleri",
+        "meta_keywords": "Pet Kuaför, Pet Bakım, Pet Tıraş, Pet Otel, Pet Konaklama",
+        "meta_description": "Evcil hayvanınızın sağlığı ve şıklığı için doğru pet kuaför seçimi önemlidir. Tüy bakımı, tıraş ve profesyonel hizmet ipuçlarını keşfedin."
     },
     {
         "id": 2,
@@ -17,7 +19,9 @@
         "image": "/kopek-tirasi.webp",
         "author": "Bark Lounge",
         "date": "Şub 24, 2024",
-        "category": "Köpek Bakım ve Tıraş"
+        "category": "Köpek Bakım ve Tıraş",
+        "meta_keywords": "Köpek Tıraşı, Köpek Bakım, Köpek Tıraş, Köpek Otel, Köpek Konaklama",
+        "meta_description": "Köpek tıraşı, hem estetik hem de sağlık açısından kritik. Düzenli bakımın faydalarını ve tıraşın önemini öğrenin."
     },
     {
         "id": 3,
@@ -27,6 +31,8 @@
         "image": "/pet-otel.jpg",
         "author": "Bark Lounge",
         "date": "Şub 24, 2024",
-        "category": "Pet Otel ve Konaklama"
+        "category": "Pet Otel ve Konaklama",
+        "meta_keywords": "Pet Otel, Pet Konaklama, Pet Otel Nedir, Pet Konaklama Nedir",
+        "meta_description": "Tatil ve seyahatlerinizde evcil hayvanlarınızın konforu için pet otel hizmetlerini tercih edin. Güvenli ve özenli konaklama çözümlerini keşfedin."
     }
 ]

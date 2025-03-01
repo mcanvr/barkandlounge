@@ -14,7 +14,7 @@ return [
     'email' => 'Email',
     'allRightsReserved' => 'Tüm hakları saklıdır.',
     'appointment' => 'Hemen Randevu Al',
-    'description' => 'Bark Lounge, tüm ırk ve boyuttaki köpekleriniz için özenle hazırlanmış kuaför hizmetleri sunan, deneyimli ekibiyle konfor ve şıklığı bir araya getiren profesyonel bir markadır.',
+    'description' => 'Bark Lounge ailesi olarak, evcil dostlarınızın konfor ve mutluluğunu ön planda tutuyoruz. Modern, hijyenik ortamımızda, pet kuaför, günlük bakım ve konaklama hizmetleriyle onların güvende ve neşeli olmalarını sağlıyoruz.',
     'contactUs' => 'Bize Ulaşın',
     'openingHours' => 'Çalışma Saatleri',
     'quickLinks' => 'Hızlı Bağlantılar',

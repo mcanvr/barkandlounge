@@ -12,8 +12,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="Bark & Lounge">
-    <meta property="og:description" content="{{ __('app.description') }}">
+    <meta property="og:title" content="@yield('title', 'Bark & Lounge')">
+    <meta property="og:description" content="@yield('meta_description', __('app.description'))">
     <meta property="og:image" content="{{ asset('logo.png') }}">
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ url()->current() }}" />
