@@ -35,11 +35,11 @@
 
 <div class="hero-slick">
     <div style="background-image: url('{{ asset('slider-bg.webp') }}')"
-        class="bg-cover bg-center md:h-[550px] h-[425px] w-full">
+        class="bg-cover bg-center md:h-[550px] h-[340px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
-            <div class="flex flex-col z-10 items-center justify-center md:px-40 px-10 gap-10">
+            <div class="flex flex-col z-10 items-center justify-center md:px-40 px-4 gap-10">
                 <h1
-                    class="text-white md:text-5xl text-3xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
+                    class="text-white md:text-5xl text-2xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
                     Minik dostlarımız için hemen şimdi randevu alarak onlara hak ettiği konforu ve bakımı
                     sağlayabilirsiniz</h1>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
@@ -51,11 +51,11 @@
         </div>
     </div>
     <div style="background-image: url('{{ asset('slider-bg.webp') }}')"
-        class="bg-cover bg-center md:h-[550px] h-[425px] w-full">
+        class="bg-cover bg-center md:h-[550px] h-[340px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
-            <div class="flex flex-col z-10 items-center justify-center md:px-40 px-10 gap-10">
+            <div class="flex flex-col z-10 items-center justify-center md:px-40 px-4 gap-10">
                 <h1
-                    class="text-white md:text-5xl text-3xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
+                    class="text-white md:text-5xl text-2xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
                     Sevimli dostlarımızın mutluluğu için hemen şimdi randevu alarak, onlara kusursuz en iyi bakımı
                     sağlayabilirsiniz.</h1>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
