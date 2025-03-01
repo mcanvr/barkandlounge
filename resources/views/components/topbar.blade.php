@@ -10,7 +10,7 @@
             <div class="text-sm text-neutral-100 font-serif">
                 <i class="far fa-clock text-neutral-100"></i>
                 <span class="text-neutral-100 font-serif">
-                    {{ __('app.openingHours') }}: 09:00 - 18:00
+                    {{ __('app.openingHours') }}: 10:00 - 19:00
                 </span>
             </div>
         </div>

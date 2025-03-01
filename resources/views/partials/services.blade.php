@@ -3,38 +3,37 @@
         [
             'icon' => 'shaving-machine.png',
             'title' => 'Makina Traşı',
-            'description' =>
-                'Birlikte yaşadığınız evcil hayvanlarınıza sıcaklık ve dökülmelere bağlı olarak tercihe göre 2cm\'e kadar makina tıraşı işlemi sunuyoruz.',
+            'description' => 'Evcil dostlarınızın sağlığı için tercihe bağlı olarak makine tıraşı sunuyoruz.',
         ],
         [
             'icon' => 'scissors.png',
             'title' => 'Makas Tıraşı',
             'description' =>
-                'Minik dostlarınızı daha mutlu ve estetik bir hale çevirmek için sizin isteğiniz doğrultusunda makas tıraşı hizmeti sunuyoruz.',
-        ],
-        [
-            'icon' => 'bath.png',
-            'title' => 'Banyo',
-            'description' =>
-                'Özellikle evde yaşayan dostlarınızın ve evinizin sterilliği için ayda 1 kez tüy yapısına uygun özel şampuanla yıkama işlemi öneriyoruz.',
-        ],
-        [
-            'icon' => 'paw.png',
-            'title' => 'Tırnak kesimi',
-            'description' =>
-                'Küçük dostunuzun genetik yapısına tırnak şekline ve anatomik özelliğine göre tırnak kesimi hizmeti sunmaktayız.',
+                'Minik dostlarımızı daha mutlu ve estetik bir hale getirmek için sizin özel istekleriniz doğrultusunda ırklara özel makas tıraşı hizmeti sunuyoruz.',
         ],
         [
             'icon' => 'magic-wand.png',
-            'title' => 'Rötuş',
+            'title' => 'Hijyen Traşı',
             'description' =>
-                'Göz, kulak, pati altları, popo ve genital bölge temizlenmesini sağlayarak evcil dostunuzun bakımını en iyi şekilde yapmaktayız.',
+                'Göz önü, pati altları, genital ve popo bölgesinin temizliğini yaparak dostlarımızın daha sağlıklı ve konforlu yaşamasını sağlıyoruz.',
         ],
         [
-            'icon' => 'brush.png',
-            'title' => 'Tarama',
+            'icon' => 'bath.png',
+            'title' => 'Banyo ve tırnak kesimi',
             'description' =>
-                'Minik dostlarınızın tüylerinin bakımlı ve güzel görünmesi için belirli periyotlarla tarama işlemi yaparak ilk günkü gibi temiz olmasını sağlıyoruz.',
+                'Özellikle evde yaşayan dostlarımıza, ayda 1 kez tüy yapısına uygun özel şampuanla yıkama işlemi öneriyoruz. Tüyleri kirden arındırıyor ve cildin nefes almasını sağlıyoruz. Minik dostunuzun genetik yapısına tırnak şekline ve anatomik özelliğine göre tırnak kesimi hizmeti sunuyoruz.',
+        ],
+        [
+            'icon' => 'pets.png',
+            'title' => 'Pet Kafe',
+            'description' =>
+                'Evcil dostlarımızın güvenle tanışıp sosyalleşebileceği bir ortamda sizlerde ikramlarımızla birlikte kafemizde bulunup keyifli vakit geçirebilirsiniz ',
+        ],
+        [
+            'icon' => 'animal-shelter.png',
+            'title' => 'Pet otel ve kreş',
+            'description' =>
+                'Tamamen evcil dostlarımızın konforuna ve keyfine uygun tasarlanmış odalarımızda kafes sistemi kullanmıyoruz ve onların sizlerden uzaktayken strese girmelerine izin vermiyoruz.',
         ],
     ];
 @endphp
@@ -42,10 +41,10 @@
 <section id="services" class="bg-neutral-100">
     <div class="container mx-auto md:py-20 py-10 flex flex-col items-center justify-center md:gap-16 gap-8">
         <div class="flex flex-col gap-2 items-center justify-center">
-            <h2 class="text-pet-700 font-bold uppercase">
+            <h2 class="text-pet-700 font-bold uppercase text-center">
                 Dostlarımızın mutlu olması için
             </h2>
-            <p class="text-black md:text-5xl text-3xl font-bold">
+            <p class="text-black md:text-5xl text-3xl font-bold text-center">
                 Hizmetlerimiz
             </p>
         </div>

@@ -14,7 +14,7 @@ return [
     'email' => 'Email',
     'allRightsReserved' => 'Tüm hakları saklıdır.',
     'appointment' => 'Hemen Randevu Al',
-    'description' => 'Bark and Lounge, küçük ırk, orta ırk, büyük ırk köpeklerinizin kuaför hizmetlerini gerçekleştiren profesyonel ekibi ile hizmet veren bir kuruluştur.',
+    'description' => 'Bark Lounge, tüm ırk ve boyuttaki köpekleriniz için özenle hazırlanmış kuaför hizmetleri sunan, deneyimli ekibiyle konfor ve şıklığı bir araya getiren profesyonel bir markadır.',
     'contactUs' => 'Bize Ulaşın',
     'openingHours' => 'Çalışma Saatleri',
     'quickLinks' => 'Hızlı Bağlantılar',

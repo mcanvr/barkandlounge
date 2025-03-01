@@ -29,7 +29,7 @@
         </div>
         <div class="h-full md:flex-none flex-1 flex flex-row items-center justify-end">
             <a class="font-medium hover:text-pet-700 transition-colors font-serif text-lg h-full flex items-center"
-                href="https://wa.me/905555555555?text=Merhaba, benimle konuşmak ister misiniz?" target="_blank">
+                href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank">
                 {{ __('app.appointment') }}
             </a>
         </div>

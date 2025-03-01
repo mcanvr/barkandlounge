@@ -22,17 +22,17 @@
         @endforeach
     </div>
     <div class="flex flex-row items-center justify-center h-12">
-        <a href="#" target="_blank"
+        <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
             class="h-12 flex-1 bg-[#25D366] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
             <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="#" target="_blank"
+        <a href="https://www.instagram.com/barkloungetr/" target="_blank"
             class="h-12 flex-1 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
             <i class="fab fa-instagram"></i>
         </a>
-        <a href="#" target="_blank"
-            class="h-12 flex-1 bg-[#1877F2] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
-            <i class="fab fa-facebook"></i>
+        <a href="https://www.tiktok.com/@barklounge" target="_blank"
+            class="h-12 flex-1 bg-[#000] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
+            <i class="fab fa-tiktok"></i>
         </a>
     </div>
 </div>

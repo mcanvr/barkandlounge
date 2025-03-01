@@ -1,8 +1,9 @@
 @extends('layouts.app')
-@section('title', 'Blog Detay')
-@section('description', 'Blog Detay')
-@section('keywords', 'Blog Detay')
-
+@section('title', $blog['title'] . ' - Bark & Lounge')
+@section('meta_keywords',
+    $blog['title'] .
+    ', Bark & Lounge, kuaför, köpek, köpek kuaförü, köpek kuaförü hizmeti, köpek
+    kuaförü hizmeti Türkiye, pet kuaför, pet kuaförü, pet kuaförü hizmeti')
 @section('content')
     <div style="background-image: url('{{ $blog['image'] }}')" class="bg-cover bg-center relative">
         <div class="absolute inset-0 bg-black opacity-50 z-2"></div>

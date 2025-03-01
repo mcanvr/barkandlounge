@@ -1,52 +1,37 @@
 @php
     $reviews = [
         [
-            'name' => 'Mehmet Can Vardar',
-            'date' => '20.02.2025',
+            'name' => 'Dilara Y.',
+            'date' => '25.02.2025',
             'comment' =>
-                'Asena Hanım mükemmel bir insan ve çok ama çok güzel. Onu çok seviyorum çünkü çok tatlı çok sempatik bir kadın. Onu tanıdığım için çok mutluyum. Asena iyi ki var.',
+                'Cocker cinsi köpeğimizi tıraş ettirdik samimiyetlerinden ve profesyonelliklerinden dolayı memnun kaldık.',
         ],
         [
-            'name' => 'Ayşe Yılmaz',
-            'date' => '20.02.2025',
+            'name' => 'Sena U.',
+            'date' => '16.02.2025',
+            'comment' =>
+                'Gün içinde işim olduğunda veya köpeğimizin sosyalleşmesi için kreşe bırakıyoruz. Buraya bıraktığımızda gözümüz arkada kalmıyor köpeğimiz de mutlu oluyor.',
+        ],
+        [
+            'name' => 'Mehmet K.',
+            'date' => '16.02.2025',
+            'comment' => 'Güleryüzleri ve samimiyetleri çok içten çok tatlı ve temiz bir yer.',
+        ],
+        [
+            'name' => 'Senem B.',
+            'date' => '12.02.2025',
+            'comment' => '1.5 yaşında poodle oğlum için tercih ediyoruz tıraşlarından çok memnunuz 😍',
+        ],
+        [
+            'name' => 'Büşra G.',
+            'date' => '25.01.2025',
             'comment' =>
                 'Kedimizin uzun tüylerini tıraş ettirmek için sürekli anestezi verme derdimiz son buldu. Sorunsuz bir şekilde kısa sürede kedimizin tüyleri tıraş edildi. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
         ],
         [
-            'name' => 'Ali Vardar',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin tüyleri çok uzun ve kötü görünüyordu. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
-        ],
-        [
-            'name' => 'Ayşe Yılmaz',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin tüyleri çok uzun ve kötü görünüyordu. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
-        ],
-        [
-            'name' => 'Mehmet Can Vardar',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin uzun tüylerini tıraş ettirmek için sürekli anestezi verme derdimiz son buldu. Sorunsuz bir şekilde kısa sürede kedimizin tüyleri tıraş edildi. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
-        ],
-        [
-            'name' => 'Ayşe Yılmaz',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin uzun tüylerini tıraş ettirmek için sürekli anestezi verme derdimiz son buldu. Sorunsuz bir şekilde kısa sürede kedimizin tüyleri tıraş edildi. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
-        ],
-        [
-            'name' => 'Ali Vardar',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin tüyleri çok uzun ve kötü görünüyordu. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
-        ],
-        [
-            'name' => 'Ayşe Yılmaz',
-            'date' => '20.02.2025',
-            'comment' =>
-                'Kedimizin tüyleri çok uzun ve kötü görünüyordu. Kadın işçinin iyi bir işçi olduğunu düşünüyorum. Kedimizin mutlu olduğunu görüyoruz. Teşşekkürler.',
+            'name' => 'Sıla Y.',
+            'date' => '20.01.2025',
+            'comment' => 'Konum olarak güzel bir yerde ayrıca her aradığımızda ulaşabiliyor olmak en önemlisi.',
         ],
     ];
 @endphp
@@ -57,11 +42,11 @@
             <h2 class="text-pet-700 font-bold text-center uppercase">
                 Yorumlar
             </h2>
-            <p class="text-black md:text-5xl text-3xl font-bold">
+            <p class="text-black md:text-5xl text-3xl font-bold text-center">
                 Değerli Müşterilerimizden
             </p>
         </div>
-        <div class="grid md:grid-cols-4 grid-cols-1 md:gap-10 gap-4 md:w-auto w-full">
+        <div class="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-4 md:w-auto w-full">
             @foreach ($reviews as $review)
                 <div
                     class="bg-white p-6 rounded-xl transition-all duration-300 border border-gray-200 font-serif w-full">
@@ -85,7 +70,7 @@
                             <i class="fa-solid fa-star text-yellow-500"></i>
                         @endfor
                     </div>
-                    <p class="text-gray-500 text-sm mt-2">
+                    <p class="text-gray-500 text-sm mt-3">
                         {{ $review['comment'] }}
                     </p>
                 </div>

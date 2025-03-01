@@ -4,7 +4,7 @@
             <h2 class="text-pet-700 font-bold text-center uppercase">
                 Bark & Lounge
             </h2>
-            <p class="text-black md:text-5xl text-3xl font-bold">
+            <p class="text-black md:text-5xl text-3xl font-bold text-center">
                 Son Blog Yazılarımız
             </p>
         </div>

@@ -1,20 +1,18 @@
 @php
-    $description = __('app.description');
-    $phone = '+90 533 888 88 88';
-    $address = 'İstanbul, Türkiye';
-    $email = 'info@barkandlounge.com';
-    $instagram = 'https://www.instagram.com/barkandlounge/';
-    $facebook = 'https://www.facebook.com/barkandlounge/';
-    $twitter = 'https://twitter.com/barkandlounge/';
-    $youtube = 'https://www.youtube.com/channel/UC_9-kyTW8ZkZNDHQJ6FgpwQ';
-    $linkedin = 'https://www.linkedin.com/company/barkandlounge/';
-    $privacyPolicy = 'https://www.barkandlounge.com/privacy-policy';
-    $cookiePolicy = 'https://www.barkandlounge.com/cookie-policy';
-    $termsOfService = 'https://www.barkandlounge.com/terms-of-service';
+    $description =
+        'Bark Lounge ailesi olarak, evcil dostlarınızın konfor ve mutluluğunu ön planda tutuyoruz. Modern, hijyenik ortamımızda, pet kuaför, günlük bakım ve konaklama hizmetleriyle onların güvende ve neşeli olmalarını sağlıyoruz.';
+    $phone = '+90 546 246 9237';
+    $address = 'Bahçelievler Mahallesi Ali Rıza Kuzucan Sk. No:50/B 34180 İstanbul';
+    $email = 'barkloungetr@gmail.com';
+    $instagram = 'https://www.instagram.com/barkloungetr/';
+    $tiktok = 'https://www.tiktok.com/@barklounge';
+    $privacyPolicy = '#';
+    $cookiePolicy = '#';
+    $termsOfService = '#';
     $home = route('home');
-    $aboutUs = '#about-us';
-    $services = '#services';
-    $contact = '#contact';
+    $aboutUs = url('/') . '#about-us';
+    $services = url('/') . '#services';
+    $contact = url('/') . '#contact';
 @endphp
 
 <footer class="border-t border-t-neutral-200">
@@ -45,7 +43,7 @@
                     </li>
                     <li class="flex flex-row items-center gap-3">
                         <i class="far fa-location-dot"></i>
-                        <a href="https://goo.gl/maps/1234567890" class="text-neutral-800">
+                        <a target="_blank" href="https://maps.app.goo.gl/uV7itRCwrihEc1HbA" class="text-neutral-800">
                             {{ $address }}
                         </a>
                     </li>
@@ -84,33 +82,17 @@
                 </h3>
                 <ul class="flex flex-col gap-2 font-serif">
                     <li class="flex flex-row items-center">
-                        <a href="{{ $instagram }}" class="flex flex-row items-center gap-2 text-[#E1306C]">
+                        <a target="_blank" href="{{ $instagram }}"
+                            class="flex flex-row items-center gap-2 text-[#E1306C]">
                             <i class="fa-brands fa-instagram"></i>
                             Instagram
                         </a>
                     </li>
                     <li class="flex flex-row items-center">
-                        <a href="{{ $facebook }}" class="flex flex-row items-center gap-2 text-[#1877F2]">
-                            <i class="fa-brands fa-facebook"></i>
-                            Facebook
-                        </a>
-                    </li>
-                    <li class="flex flex-row items-center">
-                        <a href="{{ $twitter }}" class="flex flex-row items-center gap-2 text-neutral-800">
-                            <i class="fa-brands fa-x"></i>
-                            Twitter
-                        </a>
-                    </li>
-                    <li class="flex flex-row items-center">
-                        <a href="{{ $youtube }}" class="flex flex-row items-center gap-2 text-[#FF0000]">
-                            <i class="fa-brands fa-youtube"></i>
-                            Youtube
-                        </a>
-                    </li>
-                    <li class="flex flex-row items-center">
-                        <a href="{{ $linkedin }}" class="flex flex-row items-center gap-3 text-[#0077B5]">
-                            <i class="fa-brands fa-linkedin"></i>
-                            LinkedIn
+                        <a target="_blank" href="{{ $tiktok }}"
+                            class="flex flex-row items-center gap-2 text-[#000]">
+                            <i class="fa-brands fa-tiktok"></i>
+                            TikTok
                         </a>
                     </li>
                 </ul>
@@ -124,17 +106,14 @@
                 <span class="text-white font-bold">Bark & Lounge</span>© {{ __('app.allRightsReserved') }}
                 {{ date('Y') }}
             </div>
-            <div class="flex flex-row items-center gap-5">
+            {{--             <div class="flex flex-row items-center gap-5">
                 <a href="{{ $privacyPolicy }}" class="text-white">
                     {{ __('app.privacyPolicy') }}
-                </a>
-                <a href="{{ $cookiePolicy }}" class="text-white">
-                    {{ __('app.cookiePolicy') }}
                 </a>
                 <a href="{{ $termsOfService }}" class="text-white">
                     {{ __('app.termsOfService') }}
                 </a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </footer>

@@ -39,13 +39,8 @@
 
 <body class="h-dvh flex flex-col bg-white overflow-x-hidden">
     @include('components.topbar', [
-        'phone' => '+90 555 444 33 22',
-        'address' => 'İstanbul, Türkiye',
-        'socials' => [
-            'instagram' => 'https://instagram.com/ornekhesap',
-            'whatsapp' => 'https://wa.me/1234567890',
-            'twitter' => 'https://twitter.com/ornekhesap',
-        ],
+        'phone' => '+90 546 246 9237',
+        'address' => 'Bahçelievler Mahallesi Ali Rıza Kuzucan Sk. No:50/B 34180 İstanbul',
     ])
     @include('components.header')
     @include('partials.mobile-sidebar')

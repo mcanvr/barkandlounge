@@ -12,25 +12,37 @@
                     Bark & Lounge
                 </p>
             </div>
-            <div class="flex flex-col gap-8">
+            <div class="flex flex-col gap-5">
                 <p class="text-black leading-relaxed">
-                    Hayatınızın ve ailenizin en özel üyesini, en az sizin kadar önemsiyor ve ona değer veriyoruz.
-                    Uzman kadromuz ile istediğiniz her an, kendi çatımız altında ister günlük ister konaklamalı
-                    şekilde fiziksel ve ruhsal ihtiyaçlarını karşılıyor, sağlıklı ve huzurlu bir zaman geçirmesini
-                    sağlıyoruz.
-                    Sizler de gönül rahatlığı ile işinize ve toplantınıza odaklanabilir, keyifle tatilinizin tadını
-                    çıkarabilirsiniz.
+                    Bark & Lounge ailesi olarak, evcil dostlarınızın mutluluğunu ve konforunu en üst düzeyde tutarak
+                    rahat ve evindeymiş gibi hissetmesine yardımcı oluyoruz. Pet kuaför hizmetlerinden konforlu pet otel
+                    konaklamalarına kadar geniş bir yelpazede özen ve titizlikle, onların sağlıklı, neşeli ve huzurlu
+                    günler geçirmesini sağlıyoruz.
                 </p>
                 <p class="text-black leading-relaxed">
-                    Yeşilköy’de bulunan köşkümüz, patili dostlarımız için özel olarak dizayn edilmiştir.
-                    Yaşam alanlarını daha konforlu hale getirdiğimiz odalarımız, her gün sterilize edilmektedir.
-                    Konaklama süreleri boyunca rutinlerini bozmadan kendilerini daha mutlu ve huzurlu hissetmelerini
-                    sağlıyoruz.
+                    Modern, hijyenik ve sevgi dolu ortamlarımızda, her evcil dostumuzun kendine has karakterini ve
+                    ihtiyaçlarını dikkate alarak, hem günlük bakım hem de uzun süreli konaklamalarda üstün bir hizmet
+                    anlayışı benimsiyoruz. Sizler, yoğun iş ve sosyal hayatınızın tadını çıkarırken, ailenizin en
+                    değerli üyesinin güvende ve mutlu olduğunu bilmenin huzurunu yaşıyorsunuz.
+                </p>
+                <p class="text-black leading-relaxed">
+                    Acil durumlarda, seyahate gittiğinizde vb. patili dostunuzu istediğiniz her an saatlik, günlük veya
+                    konaklamalı şekilde bizlere gönül rahatlığı ile bırakabilirsiniz ve böylelikle tatilinize, işinize
+                    odaklanabilirsiniz. Gün içerisinde patili dostlarımızla oyun saati yaparak hem eğlenmesini iyi vakit
+                    geçirmesini sağlıyoruz hemde bol bol sevgiyle yoğun şekilde ilgileniyoruz.
+                </p>
+                <p class="text-black leading-relaxed">
+                    Bahcelievler’de bulunan pet house’umuz ev konforunda olup patili dostlarımız için guvenlik açısından
+                    ve sosyalleşmeleri için özel olarak dizayn edildi.
+                </p>
+                <p class="text-black leading-relaxed">
+                    Patili dostlarımızın oyun oynadığı, vakit geçirdiği tüm alanlar her gün dezenfekte edilerek
+                    temizleniyor ve sağlık açısından herhangi bir ihmal vermiyoruz.
                 </p>
             </div>
         </div>
-        <div
-            class="h-96 w-full md:w-96 bg-pet-500 [background-image:url('https://d.newsweek.com/en/full/1898130/dog-cat-under-sheet.jpg')] bg-cover bg-center rounded-lg ml-auto transition-all duration-300">
+        <div style="background-image: url('{{ asset('about-bg.jpg') }}')"
+            class="h-96 w-full md:w-96 bg-cover bg-center rounded-lg ml-auto transition-all duration-300">
         </div>
     </div>
 </section>
