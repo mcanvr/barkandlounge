@@ -35,7 +35,7 @@
 
 <div class="hero-slick">
     <div style="background-image: url('{{ asset('slider-bg.webp') }}')"
-        class="bg-cover bg-center md:h-[550px] h-[400px] w-full">
+        class="bg-cover bg-center md:h-[550px] h-[425px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
             <div class="flex flex-col z-10 items-center justify-center md:px-40 px-10 gap-10">
                 <h1
@@ -51,7 +51,7 @@
         </div>
     </div>
     <div style="background-image: url('{{ asset('slider-bg.webp') }}')"
-        class="bg-cover bg-center md:h-[550px] h-[400px] w-full">
+        class="bg-cover bg-center md:h-[550px] h-[425px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
             <div class="flex flex-col z-10 items-center justify-center md:px-40 px-10 gap-10">
                 <h1
