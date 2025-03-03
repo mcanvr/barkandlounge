@@ -23,14 +23,17 @@
     </div>
     <div class="flex flex-row items-center justify-center h-12">
         <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
+            rel="noopener noreferrer" title="WhatsApp ile iletişime geçin"
             class="h-12 flex-1 bg-[#25D366] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
             <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="https://www.instagram.com/barkloungetr/" target="_blank"
+        <a href="https://www.instagram.com/barkloungetr/" target="_blank" rel="noopener noreferrer"
+            title="Instagram sayfamızı ziyaret edin"
             class="h-12 flex-1 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
             <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.tiktok.com/@barklounge" target="_blank"
+        <a href="https://www.tiktok.com/@barklounge" target="_blank" rel="noopener noreferrer"
+            title="TikTok sayfamızı ziyaret edin"
             class="h-12 flex-1 bg-[#000] text-white flex items-center justify-center text-xl hover:opacity-80 transition-all duration-300">
             <i class="fab fa-tiktok"></i>
         </a>

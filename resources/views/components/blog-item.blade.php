@@ -3,9 +3,10 @@
         <div class="bg-pet-50 rounded-xl py-1 px-3 text-pet-700 font-bold text-sm w-fit absolute top-3 right-3">
             {{ $category }}
         </div>
-        <img class="w-full h-48 object-cover rounded-xl mb-4" src="{{ $image }}" alt="{{ $title }}" />
+        <img class="w-full h-48 object-cover rounded-xl mb-4" src="{{ $image }}" alt="{{ $title }}"
+            title="{{ $title }} - Bark & Lounge" />
     </div>
-    <a href="{{ route('blogDetail', ['slug' => $slug]) }}"
+    <a href="{{ route('blogDetail', ['slug' => $slug]) }}" title="{{ $title }} - Bark & Lounge"
         class="text-black font-bold text-xl leading-tight mt-4 w-full block">
         {{ $title }}
     </a>

@@ -19,7 +19,8 @@
     <div class="bg-white">
         <div class="container mx-auto py-6 grid md:grid-cols-4 grid-cols-1 gap-6">
             <div class="flex flex-col gap-3">
-                <img alt="Logo" src="{{ asset('logo.png') }}" class="h-[90px] w-[90px] object-contain" />
+                <img alt="Bark & Lounge Logo" title="Bark & Lounge - Pet Bakım ve Konaklama" src="{{ asset('logo.png') }}"
+                    class="h-[90px] w-[90px] object-contain" />
                 <p class="text-neutral-700 pr-8 font-serif">
                     {{ $description }}
                 </p>
@@ -31,19 +32,20 @@
                 <ul class="flex flex-col gap-4 font-serif">
                     <li class="flex flex-row items-center gap-3">
                         <i class="far fa-phone"></i>
-                        <a href="tel:{{ $phone }}" class="text-neutral-800">
+                        <a href="tel:{{ $phone }}" class="text-neutral-800" title="Bizi arayın">
                             {{ $phone }}
                         </a>
                     </li>
                     <li class="flex flex-row items-center gap-3">
                         <i class="far fa-envelope"></i>
-                        <a href="mailto:{{ $email }}" class="text-neutral-800">
+                        <a href="mailto:{{ $email }}" class="text-neutral-800" title="E-posta gönderin">
                             {{ $email }}
                         </a>
                     </li>
                     <li class="flex flex-row items-center gap-3">
                         <i class="far fa-location-dot"></i>
-                        <a target="_blank" href="https://maps.app.goo.gl/uV7itRCwrihEc1HbA" class="text-neutral-800">
+                        <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/uV7itRCwrihEc1HbA"
+                            class="text-neutral-800" title="Adresimize yol tarifi alın">
                             {{ $address }}
                         </a>
                     </li>
@@ -82,15 +84,16 @@
                 </h3>
                 <ul class="flex flex-col gap-2 font-serif">
                     <li class="flex flex-row items-center">
-                        <a target="_blank" href="{{ $instagram }}"
+                        <a href="{{ $instagram }}" target="_blank" rel="noopener noreferrer"
+                            title="Instagram sayfamızı takip edin"
                             class="flex flex-row items-center gap-2 text-[#E1306C]">
                             <i class="fa-brands fa-instagram"></i>
                             Instagram
                         </a>
                     </li>
                     <li class="flex flex-row items-center">
-                        <a target="_blank" href="{{ $tiktok }}"
-                            class="flex flex-row items-center gap-2 text-[#000]">
+                        <a href="{{ $tiktok }}" target="_blank" rel="noopener noreferrer"
+                            title="TikTok sayfamızı takip edin" class="flex flex-row items-center gap-2 text-[#000]">
                             <i class="fa-brands fa-tiktok"></i>
                             TikTok
                         </a>

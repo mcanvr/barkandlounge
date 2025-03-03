@@ -7,7 +7,7 @@
                 <h2 class="text-white font-bold uppercase md:text-2xl text-xl [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
                     Tek tıkla bizi arayın
                 </h2>
-                <a href="tel:+905462469237"
+                <a href="tel:+905462469237" rel="nofollow" title="Bizi hemen arayın"
                     class="bg-pet-700 text-white px-10 py-4 font-bold md:text-2xl text-xl rounded-lg w-fit flex flex-row items-center gap-4">
                     <i class="fa-solid fa-phone"></i>
                     Şimdi Ara
@@ -18,6 +18,7 @@
                     Whatsapp'tan mesaj yazabilirsiniz
                 </h2>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
+                    rel="noopener noreferrer" title="WhatsApp ile mesaj gönderin"
                     class="bg-[#25D366] text-white px-10 py-4 font-bold md:text-2xl text-xl rounded-lg w-fit flex flex-row items-center gap-4">
                     <i class="fa-brands fa-whatsapp"></i>
                     Mesaj Gönder

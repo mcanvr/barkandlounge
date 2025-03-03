@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- SEO Optimizasyonları -->
-    <title>@yield('title', 'Bark & Lounge')</title>
-    <meta name="description" content="@yield('meta_description', __('app.description'))">
-    <meta name="keywords" content="@yield('meta_keywords', 'Bark & Lounge, kuaför, köpek, köpek kuaförü, köpek kuaförü hizmeti, köpek kuaförü hizmeti Türkiye, pet kuaför, pet kuaförü, pet kuaförü hizmeti')">
+    <title>@yield('title', 'Bark & Lounge - Pet Kuaför, Kreş ve Otel')</title>
+    <meta name="description" content="@yield('meta_description', 'Bark Lounge ailesi olarak evcil dostlarınıza konfor ve mutluluk sunuyoruz. Modern, hijyenik ortamda pet kuaför, bakım ve konaklama hizmetleri veriyoruz.')">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title', 'Bark & Lounge')">
-    <meta property="og:description" content="@yield('meta_description', __('app.description'))">
+    <meta property="og:title" content="@yield('title', 'Bark & Lounge - Pet Kuaför, Kreş ve Otel')">
+    <meta property="og:description" content="@yield('meta_description', 'Bark Lounge ailesi olarak evcil dostlarınıza konfor ve mutluluk sunuyoruz. Modern, hijyenik ortamda pet kuaför, bakım ve konaklama hizmetleri veriyoruz.')">
     <meta property="og:image" content="{{ asset('logo.png') }}">
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ url()->current() }}" />
@@ -27,12 +26,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IT+Moderna:wght@100..400&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -129,6 +127,75 @@
         });
     </script>
     @yield('scripts')
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Bark & Lounge",
+        "image": "{{ asset('logo.png') }}",
+        "url": "{{ url('/') }}",
+        "telephone": "+905462469237",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bahçelievler Mahallesi Ali Rıza Kuzucan Sk. No:50/B",
+            "addressLocality": "İstanbul",
+            "postalCode": "34180",
+            "addressCountry": "TR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.009360,
+            "longitude": 28.864541
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+        },
+        "priceRange": "₺₺",
+        "description": "{{ __('app.description') }}",
+        "sameAs": [
+            "https://www.instagram.com/barkloungetr/",
+            "https://www.tiktok.com/@barklounge"
+        ],
+        "makesOffer": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Pet Kuaför",
+                    "description": "Kedi ve köpekler için profesyonel tıraş, banyo ve tırnak kesimi hizmetleri"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Pet Otel",
+                    "description": "Güvenli ve konforlu pet konaklama ve bakım hizmetleri"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Pet Kreş",
+                    "description": "Günlük bakım ve sosyalleşme hizmetleri"
+                }
+            }
+        ]
+    }
+    </script>
 </body>
 
 </html>

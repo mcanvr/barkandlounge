@@ -38,12 +38,13 @@
         class="bg-cover bg-center md:h-[550px] h-[340px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
             <div class="flex flex-col z-10 items-center justify-center md:px-40 px-4 gap-10">
-                <h1
+                <div
                     class="text-white md:text-5xl text-2xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
                     Minik dostlarımız için hemen şimdi randevu alarak onlara hak ettiği konforu ve bakımı
-                    sağlayabilirsiniz</h1>
+                    sağlayabilirsiniz</div>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
-                    class="bg-white text-pet-700 md:px-8 md:py-4 px-4 py-2 rounded-full font-bold font-serif md:text-xl text-base hover:bg-pet-700 hover:text-white transition-all duration-300 flex flex-row items-center gap-2  border-2 border-pet-700">
+                    rel="noopener noreferrer" title="Bark & Lounge - WhatsApp üzerinden randevu alın"
+                    class="bg-white text-pet-700 md:px-8 md:py-4 px-4 py-2 rounded-full font-bold font-serif md:text-xl text-base hover:bg-pet-700 hover:text-white transition-all duration-300 flex flex-row items-center gap-2 border-2 border-pet-700">
                     <i class="fa-solid fa-phone"></i>
                     {{ __('app.appointment') }}
                 </a>
@@ -54,12 +55,13 @@
         class="bg-cover bg-center md:h-[550px] h-[340px] w-full">
         <div class="container mx-auto md:py-40 py-10 flex items-center justify-center">
             <div class="flex flex-col z-10 items-center justify-center md:px-40 px-4 gap-10">
-                <h1
+                <div
                     class="text-white md:text-5xl text-2xl font-bold font-serif text-center leading-tight [text-shadow:0_0_10px_rgba(0,0,0,0.5)]">
                     Sevimli dostlarımızın mutluluğu için hemen şimdi randevu alarak, onlara kusursuz en iyi bakımı
-                    sağlayabilirsiniz.</h1>
+                    sağlayabilirsiniz.</div>
                 <a href="https://wa.me/905462469237?text=Merhaba, hizmet almak istiyorum." target="_blank"
-                    class="bg-white text-pet-700 md:px-8 md:py-4 px-4 py-2 rounded-full font-bold font-serif md:text-xl text-base hover:bg-pet-700 hover:text-white transition-all duration-300 flex flex-row items-center gap-2  border-2 border-pet-700">
+                    rel="noopener noreferrer" title="Bark & Lounge - WhatsApp üzerinden randevu alın"
+                    class="bg-white text-pet-700 md:px-8 md:py-4 px-4 py-2 rounded-full font-bold font-serif md:text-xl text-base hover:bg-pet-700 hover:text-white transition-all duration-300 flex flex-row items-center gap-2 border-2 border-pet-700">
                     <i class="fa-solid fa-phone"></i>
                     {{ __('app.appointment') }}
                 </a>

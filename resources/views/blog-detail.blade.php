@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', $blog['title'] . ' - Bark & Lounge')
+@section('title', $blog['title'] . ' - Bark & Lounge - Pet Kuaför, Kreş ve Otel')
 @section('meta_description', $blog['meta_description'])
 @section('meta_keywords', $blog['meta_keywords'])
 @section('content')
@@ -179,15 +179,20 @@
                     <div class="flex flex-col md:flex-row items-center md:gap-2 gap-4 w-full">
                         <div class="font-serif text-lg font-medium flex-1">Sosyal Medya'da Paylaş</div>
                         <div class="flex flex-row items-center md:gap-3 gap-5">
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ url()->current() }}"
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/sharer/sharer.php?u={{ url()->current() }}"
+                                title="Bu yazıyı Facebook'ta paylaş"
                                 class="h-10 w-10 rounded-full bg-[#1877F2] flex items-center justify-center">
                                 <i class="fa-brands fa-facebook-f text-white"></i>
                             </a>
-                            <a target="_blank" href="https://wa.me/?text={{ url()->current() }}"
+                            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/?text={{ url()->current() }}"
+                                title="Bu yazıyı WhatsApp'ta paylaş"
                                 class="h-10 w-10 rounded-full bg-[#25D366] flex items-center justify-center">
                                 <i class="fa-brands fa-whatsapp text-white"></i>
                             </a>
-                            <a target="_blank" href="https://t.me/share/url?url={{ url()->current() }}"
+                            <a target="_blank" rel="noopener noreferrer"
+                                href="https://t.me/share/url?url={{ url()->current() }}"
+                                title="Bu yazıyı Telegram'da paylaş"
                                 class="h-10 w-10 rounded-full bg-[#37AEE2] flex items-center justify-center">
                                 <i class="fa-brands fa-telegram text-white"></i>
                             </a>
@@ -198,4 +203,35 @@
         </div>
     </div>
     </div>
+@endsection
+
+@section('scripts')
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ url()->current() }}"
+    },
+    "headline": "{{ $blog['title'] }}",
+    "description": "{{ $blog['meta_description'] }}",
+    "image": "{{ $blog['image'] }}",
+    "keywords": "{{ $blog['meta_keywords'] }}",
+    "datePublished": "{{ $blog['date'] }}",
+    "dateModified": "{{ $blog['date'] }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ $blog['author'] }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Bark & Lounge",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('logo.png') }}"
+        }
+    }
+}
+</script>
 @endsection

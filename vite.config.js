@@ -15,5 +15,8 @@ export default defineConfig(({ command }) => {
                 refresh: true,
             }),
         ],
+        build: {
+            minify: true,
+        },
     };
 });

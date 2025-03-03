@@ -53,7 +53,8 @@
                 <div
                     class="bg-white p-10 rounded-xl text-center font-serif items-center justify-center transition-all duration-300 w-full">
                     <div class="flex flex-col items-center justify-center h-32">
-                        <img src="{{ asset($service['icon']) }}" alt="{{ $service['title'] }}" class="w-20 h-20">
+                        <img src="{{ asset($service['icon']) }}" alt="{{ $service['title'] }}"
+                            title="{{ $service['title'] }} - Bark & Lounge" class="w-20 h-20">
                         <h3 class="text-pet-700 font-bold text-xl uppercase mt-4 mb-4">
                             {{ $service['title'] }}
                         </h3>
